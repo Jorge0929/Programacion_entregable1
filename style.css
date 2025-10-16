@@ -1,0 +1,178 @@
+/*Esto es un comentario en css*/
+body {
+    /*Tipo de letra*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*Color del fondo*/
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0 10%;
+    /*Interlineado*/
+    line-height: 1.6;
+}
+
+/*Header*/
+header {
+    background-color: #d80000;
+    color: white;
+    /*centrar el texto*/
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    /*Capitalize: convertir en mayusculas las primeras letras
+    lowercase: minusculas
+    uppercase:mayusculas
+    */
+    text-transform: capitalize;
+    /*Espacio entre las letras*/
+    letter-spacing: -3px;
+    margin: 0;
+    padding: 10px;
+}
+
+header h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    color: #ffe
+}
+
+/*Navegación*/
+nav {
+    background-color: #004b8d;
+    padding: 12px;
+    text-align: center;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+/*Sección principal y contenedores*/
+.contenedor,
+.formulario {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 25px;
+    padding: 20px;
+}
+
+/*Titulos*/
+h3 {
+    color: #d80000;
+    /*Linea debajo del texto*/
+    border-bottom: 2px solid #004b8d;
+    padding-bottom: 5px;
+    font-size: 1.3em;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+/*Imagenes*/
+img {
+    display: block;
+    /*aumentar ancho*/
+    width: 200px;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+}
+
+/*Listas*/
+ul,
+ol {
+    margin-left: 40px;
+}
+
+li {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+/*Enlaces */
+a {
+    color: #004b8d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #d80000;
+    text-decoration: underline;
+}
+
+/*Tabla*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffe;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.90em;
+}
+
+th {
+    background-color: #004b8d;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/*Formulario*/
+.formulario h3 {
+    text-align: left;
+    color: #d80000;
+    border-bottom: 2px solid #004b8d;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #004b8d;
+    font-size: 1em;
+}
+
+input,
+textarea,
+select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
